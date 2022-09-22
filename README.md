@@ -1,7 +1,11 @@
-Satoshi24
+ChicksOnTheBlocks
 ======================
 
 ![Satoshi24 serving a Cocktail](http://bitcoin-turm.de/wp-content/uploads/2019/11/signal-attachment-2019-10-21-171136_002.jpeg)
+
+You´ll need
+Raspberry Pi 3
+Adafruit_PCA9685
 
 
 Install on RaspberryPi
