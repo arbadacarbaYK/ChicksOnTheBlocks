@@ -38,10 +38,10 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 
 	## Done!
 
+	cp ~/ChicksOnTheBlocks/src/ ~/ChicksOnTheBlocks/
+	cd ChicksOnTheBlocks
+	./run.sh
 
-The steps below are based on Mama-Hector :
----
-https://github.com/H3c702/Hector9000
 
 Start Hector :
 ----
