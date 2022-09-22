@@ -5,6 +5,9 @@ ChicksOnTheBlocks
 
 You´ll need
 Raspberry Pi 3
+Debian bases Linux (to use installscript)
+Python 3.8
+Screen (e.g. 7" for Raspberry)
 Adafruit_PCA9685
 
 
