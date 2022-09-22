@@ -30,7 +30,7 @@ if [ $var_invoiceSat -eq 0 ]
   else
 
 ## Logging
-echo "invoicesat prüfung abgeschlossen" >> $var_logPath
+echo "invoicesat Prüfung abgeschlossen" >> $var_logPath
 
   ## Create Invoice and print all iformation (mainly payment_request and r_hash) to file
 	$var_lncliCommand addinvoice --amt $var_invoiceSat --memo "$var_invoiceMemo" > $var_tempPath/tempInvoice.txt
@@ -50,7 +50,7 @@ echo "tempinvoice ausgelesen" >> $var_logPath
   echo ""
 
 ## Logging
-echo "QRCode ausgabe auf cli" >> $var_logPath
+echo "QRCode Ausgabe auf cli" >> $var_logPath
 
   ## Save QR-Code to file, this one is going to be visible to the customer
   qrencode -o $var_tempPath/tempQRCode.png $var_payReq
