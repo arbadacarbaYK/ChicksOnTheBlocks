@@ -18,20 +18,22 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 	## Be sure to have some more dependencies
 	sudo apt install python3-pip git wget curl -y
 
-	## Install pip dependencies:
-	python -m pip install --upgrade --user pip setuptools
-	python -m pip install --upgrade --user Cython==0.29.10 pillow
 
-	## Install Kivy to Python globally, this might take some time...
-	python -m pip install --user kivy
-	python -m pip install --user https://github.com/kivy/kivy/archive/refs/heads/master.zip
-
+	## Install pip, Kivy and their dependencies:
+	python -m pip install --upgrade pip setuptools virtualenv
+	python -m virtualenv kivy_venv
+	source kivy_venv/bin/activate
+	python -m pip install "kivy[full]" kivy_examples
+	## Kivy on wheels
+	python -m pip install --pre "kivy[base]" kivy_examples
+	
+	
 	## After you have installed Python and Kivy you can get the sources by using Git
 	cd ~
-	git clone https://github.com/Satoshi24/Hector9000.git
+	git clone https://github.com/arbadacarbaYK/ChicksOnTheBlocks.git
 
 	## Install all the requirements listed in the file requirements.txt
-	cd Hector9000/
+	cd ChicksOnTheBlocks/
 	pip3 install -r requirements.txt
 
 	## Done!
