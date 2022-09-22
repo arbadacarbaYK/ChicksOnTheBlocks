@@ -6,10 +6,11 @@ ChicksOnTheBlocks
 
 You´ll need
 - Raspberry Pi 3
-- Debian bases Linux (to use installscript)
-- Python 3.8
-- Screen (e.g. 7" for Raspberry)
-- Adafruit_PCA9685
+- Debian bases Linux
+- Python 3.8, PIP, Kivy
+- Screen (e.g. 7" Raspberry)
+- Servos Adafruit_PCA9685
+- Tubes
 
 
 Install on RaspberryPi
