@@ -12,6 +12,9 @@ You´ll need
 - Servos Adafruit_PCA9685
 - Tubes
 
+Aufbauanleitung 
+https://github.com/H3c702/Hector9000docu/blob/master/H9000_ger_V0.2a.pdf
+
 
 Install on RaspberryPi
 ----
