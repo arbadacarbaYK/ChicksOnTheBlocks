@@ -32,7 +32,7 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 	source kivy_venv/bin/activate
 	python -m pip install "kivy[full]" kivy_examples
 	## Kivy on wheels
-	python -m pip install --pre "kivy[base]" kivy_examples
+	python -m pip install --pre "kivy[full]" kivy_examples
 	
 	
 	## After you have installed Python and Kivy you can get the sources by using Git
