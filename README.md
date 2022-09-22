@@ -24,7 +24,7 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 
 	## Install Kivy to Python globally, this might take some time...
 	python -m pip install --user kivy
-	python -m pip install --user https://github.com/kivy/kivy/archive/master.zip
+	python -m pip install --user https://github.com/kivy/kivy/archive/refs/heads/master.zip
 
 	## After you have installed Python and Kivy you can get the sources by using Git
 	cd ~
