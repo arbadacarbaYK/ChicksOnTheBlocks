@@ -1,4 +1,4 @@
-#This file is needed for Kivy and imports parts needed for the UI 
+#This file is relevant for Kivy and imports parts needed for the UI 
 from kivy.app import App
 from kivy.config import Config
 from kivy.lang import Builder
