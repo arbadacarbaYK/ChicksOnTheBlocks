@@ -24,6 +24,7 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 	sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev pkg-config libgl1-mesa-dev libgles2-mesa-dev python-setuptools libgstreamer1.0-dev git-core gstreamer1.0-plugins-{bad,base,good,ugly} gstreamer1.0-{omx,alsa} python-dev libmtdev-dev xclip xsel libjpeg-dev
 
 	## Update your update-alternatives to use python3.x instead of raspbian standard version 2.x
+	## Kivy might not run on everything > 3.8 !!
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 	sudo update-alternatives --config python
 
@@ -32,7 +33,7 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 
 
 	## Install pip, Kivy and their dependencies:
-	python -m pip install --upgrade pip setuptools virtualenv
+	python -m pip install pip setuptools virtualenv
 	python -m virtualenv kivy_venv
 	source kivy_venv/bin/activate
 	python -m pip install "kivy[full]" kivy_examples
@@ -55,6 +56,19 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 	./run.sh
 
 
+The Kivy App can be started with 
+	python main.py
+
+
+If you are testing this on a separate machine set 
+dev_environment=True 
+and uncomment Adafruit
+#import Adafruit_PCA9685 
+in HectorHardware.py
+
+
+
+UNCONFIRMED -->>
 Start Hector :
 ----
 	hector-start
