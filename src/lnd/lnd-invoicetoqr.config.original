@@ -2,8 +2,8 @@
 ## ! This file MUST be in the same directory as lnd-invoicetoqr.sh !
 
 ## Basic Variables, these have to be edited system-specific
-var_programDir=/home/<username>/Hector9000/src
-var_lndDir=/home/<username>/Hector9000/src/lnd
+var_programDir=/home/<username>/ChicksOnTheBlocks/src
+var_lndDir=/home/<username>/ChicksOnTheBlocks/src/lnd
 var_macaroonPath=$var_lndDir/invoice.macaroon
 var_tlsCertPath=$var_lndDir/tls.cert
 
