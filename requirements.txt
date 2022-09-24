@@ -13,6 +13,7 @@ Kivy-Garden
 #kivy.deps.gstreamer
 #kivy.deps.sdl2
 Pygments
+Pygame
 #pypiwin32
 #pywin32
 requests
