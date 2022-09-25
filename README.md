@@ -58,14 +58,14 @@ NOT TESTED! COMES WITHOUT ANY WARRANTY!
 
 
 The Kivy App can be started with 
-	'python main.py'
+	python main.py
 
 
 If you are testing this on a separate machine set 
-'dev_environment=True' 
+	dev_environment=True
 and uncomment Adafruit
-'#import Adafruit_PCA9685' 
-in <HectorHardware.py>
+	#import Adafruit_PCA9685
+in HectorHardware.py
 
 
 
