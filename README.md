@@ -3,6 +3,10 @@ ChicksOnTheBlocks
 
 ![Satoshi24 serving a Cocktail](http://bitcoin-turm.de/wp-content/uploads/2019/11/signal-attachment-2019-10-21-171136_002.jpeg)
 
+![photo_2024-11-15_19-56-10](https://github.com/user-attachments/assets/356c9316-98e7-4c89-aad5-ea01ddf903a5)
+![photo_2024-11-15_19-56-13](https://github.com/user-attachments/assets/ba3f49c6-a9be-44fb-b6eb-f4cecbdc3dd4)
+
+
 
 You´ll need
 - Raspberry Pi 3
